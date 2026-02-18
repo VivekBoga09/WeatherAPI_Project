@@ -15,7 +15,10 @@ function WeatherPage() {
                
 
 
-        const apikey='8aaa44881ed73f15decac6513472a44a'
+        const apikey = import.meta.env.VITE_WEATHER_API_KEY;
+        console.log(import.meta.env);
+
+
 
         function searchcity(newcity)
         {

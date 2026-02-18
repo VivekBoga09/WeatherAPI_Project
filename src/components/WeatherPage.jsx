@@ -16,7 +16,7 @@ function WeatherPage() {
 
 
         const apikey = import.meta.env.VITE_WEATHER_API_KEY;
-        console.log(import.meta.env);
+       
 
 
 

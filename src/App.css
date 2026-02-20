@@ -189,14 +189,14 @@ form button:hover {
 /* forecast card */
 .d-flex > div {
   min-width: 150px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(132, 216, 239);
   backdrop-filter: blur(18px);
   border-radius: 22px;
   padding: 20px;
   text-align: center;
   box-shadow:
     0 20px 40px rgba(0,0,0,0.45),
-    inset 0 0 0 1px rgba(255,255,255,0.25);
+    inset 0 0 0 1px rgba(253, 250, 250, 0.25);
   transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
@@ -210,12 +210,12 @@ form button:hover {
 /* forecast text */
 .d-flex > div p {
   font-size: 13px;
-  color: #e0e7ff;
+  color: black;
 }
 
 .d-flex > div h5 {
   font-size: 22px;
-  color: #93c5fd;
+  color: #e71e2b;
   margin-top: 6px;
 }
 
